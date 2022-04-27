@@ -10,7 +10,7 @@ const ContenedorSelect = styled.div`
     border-radius: 0.625rem; /* 10px */
     position: relative;
     height: 5rem; /* 80px */
-    width: 40%;
+    width: 50%;
     padding: 0px 1.25rem; /* 20px */
     font-size: 1.5rem; /* 24px */
     text-align: center;
@@ -19,6 +19,10 @@ const ContenedorSelect = styled.div`
     transition: .5s ease all;
     &:hover {
         background: ${theme.grisClaro2};
+    }
+    @media(max-width: 60rem){ /* 950px */
+        font-size: 1.2rem; /* 32px */
+     
     }
 `;
  

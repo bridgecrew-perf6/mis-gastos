@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "curso-react-app-lista-gastos"
-  }
+    "default": "cgomez-my-expenses",
+    "mis-gastos": "cgomez-my-expenses"
+  },
+  "targets": {}
 }

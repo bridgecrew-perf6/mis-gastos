@@ -18,7 +18,7 @@ const Titulo = styled.h1`
     font-size: 2.5rem; /* 40px */
  
     @media(max-width: 60rem){ /* 950px */
-        font-size: 2rem; /* 32px */
+        font-size: 1.6rem; /* 32px */
     }
 `;
  

@@ -18,7 +18,7 @@ const BarraTotal = styled.div`
  
     @media(max-width: 31.25rem) { /* 500px */
         flex-direction: column;
-        font-size: 14px;
+        font-size: 12px;
     }
 `;
 

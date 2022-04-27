@@ -20,9 +20,9 @@ const Btn = styled.button`
     cursor: pointer;
  
     @media(max-width: 60rem){ /* 950px */
-        width: 2.5rem; /* 40px */
-        height: 2.5rem; /* 40px */
-        line-height: 2.5rem; /* 40px */
+        width: 2rem; /* 40px */
+        height: 2rem; /* 40px */
+        line-height: 2rem; /* 40px */
     }
 `;
  

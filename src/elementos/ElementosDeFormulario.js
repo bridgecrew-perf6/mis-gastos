@@ -10,7 +10,6 @@ const ContenedorFiltros = styled.div`
         flex-direction: column;
  
         & > * {
-            width: 100%;
             margin-bottom: 0.62rem; /* 10px */
         }
     }
@@ -45,13 +44,16 @@ const Input = styled.input`
     outline: none;
  
     @media(max-width: 60rem){ /* 950px */
-        font-size: 2rem; 
+        font-size: 1.6rem; 
     }
 `;
  
 const InputGrande = styled(Input)`
     font-size: 3rem; /* 70px */
     font-weight: bold;
+    @media(max-width: 60rem){ /* 950px */
+        font-size: 1.6rem; 
+    }
 `;
  
 const ContenedorBoton = styled.div`
