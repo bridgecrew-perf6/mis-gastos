@@ -3,7 +3,7 @@ import {Helmet} from 'react-helmet';
 import {Header, Titulo, ContenedorHeader} from './../elementos/Header';
 import Boton from './../elementos/Boton';
 import {Formulario, Input, ContenedorBoton} from './../elementos/ElementosDeFormulario';
-import {ReactComponent as SvgLogin} from './../imagenes/registro.svg';
+import {ReactComponent as SvgLogin} from './../imagenes/register.svg';
 import styled from 'styled-components';
 import {auth} from './../firebase/firebaseConfig';
 import {useNavigate} from 'react-router-dom';
@@ -111,7 +111,7 @@ const RegistroUsuarios = () => {
 				<ContenedorHeader>
 					<Titulo>Crear Cuenta</Titulo>
 					<div>
-						<Boton to="/iniciar-sesion">Iniciar Sesion</Boton>
+						<Boton to="/iniciar-sesion">Iniciar Sesión</Boton>
 					</div>
 				</ContenedorHeader>
 			</Header>

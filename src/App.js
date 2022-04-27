@@ -10,7 +10,7 @@ const App = () => {
   return (
 	<>
 		<Helmet>
-			<title>Agregar Gasto</title>
+			<title>Mis gastos</title>
 		</Helmet>
 
 		<Header>

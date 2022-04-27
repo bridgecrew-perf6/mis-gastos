@@ -125,7 +125,7 @@ const FomularioGasto = ({gasto}) => {
 				<InputGrande 
 					type="text"
 					name="cantidad"
-					placeholder="$0.00"
+					placeholder="$0"
 					value={inputCantidad}
 					onChange={handleChange}
 				/>
